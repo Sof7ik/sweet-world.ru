@@ -4,7 +4,7 @@
     <title>Sweet World - Интернет магазин сладостей со всего мира</title>
 
     <meta name="description" content="">
-    <link rel="shortcut icon" href="/upload/images/logo.jpg" type="image/jpg">
+    <link rel="shortcut icon" href="/site/upload/images/logo.jpg" type="image/jpg">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-sacleable=yes, max-scale=2.0">
