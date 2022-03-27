@@ -86,11 +86,21 @@
         <section class="mainpage-top-slider-wrapper">
             <div class="swiper mainpage-top-slider">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide action-item"></div>
+                    <div class="swiper-slide action-item"
+                         style='background-image: url("/upload/images/mainpage-slider/baanner image.png");'>
+                    </div>
 
-                    <div class="swiper-slide action-item"></div>
+                    <div class="swiper-slide action-item"
+                         style="background-image: url('/upload/images/mainpage-slider/banner-choco.png');">
+                    </div>
 
-                    <div class="swiper-slide action-item"></div>
+                    <div class="swiper-slide action-item"
+                         style="background-image: url('/upload/images/mainpage-slider/banner-snakes.png');">
+                    </div>
+
+                    <div class="swiper-slide action-item"
+                         style="background-image: url('/upload/images/mainpage-slider/banner-pecenki.png');">
+                    </div>
                 </div>
             
                 <div class="swiper-pagination mainpage-top-slider__pagination"></div>
@@ -99,9 +109,7 @@
                     <h1 class="mainpage-top-slider__shop-name">Sweet World</h1>
 
                     <p class="mainpage-top-slider__shop-desc">
-                        Мы самые крутые, дизайнеры не дизайнят, сидим в 3 часа ночи пишем HTML...
-                        <br><br>
-                        за САПР
+                        Мы самые крутые
                     </p>
 
                     <div class="mainpage-top-slider__search-catalog-wrapper">

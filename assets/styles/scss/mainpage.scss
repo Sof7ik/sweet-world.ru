@@ -2,7 +2,6 @@
 {
 	min-height: 700px;
 
-	background-image: url("/upload/images/baanner image.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -51,6 +50,8 @@
 	left: 50%;
 
 	transform: translate(-50%, -50%);
+
+	pointer-events: none;
 }
 
 .mainpage-top-slider__shop-name
@@ -71,9 +72,12 @@
 .mainpage-top-slider__shop-desc
 {
 	color: #fff;
+	width: 100%;
 
 	font-size: 25px;
 	line-height: 30px;
+
+	text-align: center;
 }
 
 .mainpage-top-slider__search-catalog-wrapper
@@ -86,8 +90,6 @@
 	flex-flow: row nowrap;
 	justify-content: space-around;
 	align-items: center;
-
-
 }
 .mainpage-top-slider__search
 {
@@ -99,6 +101,8 @@
 	flex-flow: row nowrap;
 	justify-content: flex-start;
 	align-items: center;
+
+	pointer-events: all;
 }
 
 .mainpage-top-slider__search-loupe
@@ -146,6 +150,8 @@
 
 	min-width: 250px;
 	border-radius: 10px;
+
+	pointer-events: all;
 
 	transition: background-color .5s;
 	
