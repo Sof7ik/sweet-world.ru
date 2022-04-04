@@ -17,35 +17,39 @@
     <link rel="stylesheet" href="/src/assets/styles/css/reset.css">
     <link rel="stylesheet" href="/src/assets/styles/css/base.css">
     <link rel="stylesheet" href="/src/assets/styles/css/header.css">
+	<link rel="stylesheet" href="/src/assets/styles/css/desktop-menu.css">
     <link rel="stylesheet" href="/src/assets/styles/css/footer.css">
 
     <link rel="stylesheet" href="/src/assets/styles/css/mainpage.css">
 
     <script defer src="/src/assets/js/mainpage-top-slider.js"></script>
+	<script src="/src/assets/js/desktop-menu.js" defer></script>
 </head>
 <body>
     <header id="page-header">
         <div class="container-1440">
             <div class="page-header__inner-container">
-                <nav class="page-header__socials-block">
-                    <a href="https://t.me/" target="_blank" class="page-header__social-link tg-link">
-                        <svg width="264" height="264" viewBox="0 0 264 264" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M227.315 40.887L32.2851 116.094C18.9751 121.44 19.0521 128.865 29.8431 132.176L79.9151 147.796L195.767 74.701C201.245 71.368 206.25 73.161 202.136 76.813L108.273 161.524H108.251L108.273 161.535L104.819 213.147C109.879 213.147 112.112 210.826 114.95 208.087L139.271 184.437L189.86 221.804C199.188 226.941 205.887 224.301 208.208 213.169L241.417 56.661C244.816 43.032 236.214 36.861 227.315 40.887V40.887Z"/>
-                        </svg>
-                    </a>
+				<div class="left-header">
+					<a href="/" class="logo-wrapper" title="Перейти на главную страницу">
+						<img src="/site/upload/images/logo.jpg" alt="Логотип Sweet World">
+					</a>
 
-                    <a href="tel:+7 (999) 999-99-99" class="page-header__phone">
-                        <svg width="239" height="239" viewBox="0 0 239 239" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M204.714 55.7122L179.857 30.8786C176.823 27.8444 172.762 26.1406 168.467 26.1406C164.172 26.1406 160.111 27.8211 157.077 30.8786L130.306 57.6027C127.272 60.6369 125.568 64.7214 125.568 69.0159C125.568 73.3338 127.249 77.3716 130.306 80.4291L151.219 101.365C146.455 112.465 139.61 122.55 131.053 131.077C122.487 139.689 112.475 146.481 101.365 151.289L80.4524 130.353C77.4183 127.319 73.3571 125.615 69.0626 125.615C66.9443 125.607 64.8458 126.022 62.89 126.836C60.9342 127.649 59.1605 128.845 57.6728 130.353L30.8786 157.077C27.8444 160.111 26.1406 164.196 26.1406 168.49C26.1406 172.808 27.8211 176.846 30.8786 179.904L55.7122 204.737C60.8937 209.919 68.0356 212.883 75.3644 212.883C76.8814 212.883 78.3519 212.766 79.8456 212.509C110.748 207.421 141.416 190.967 166.18 166.226C190.92 141.439 207.351 110.771 212.486 79.8456C213.956 71.0698 211.016 62.0373 204.714 55.7122V55.7122ZM195.938 77.0682C191.387 104.586 176.589 132.033 154.3 154.323C132.01 176.613 104.586 191.41 77.0682 195.961C73.6139 196.545 70.0662 195.378 67.5455 192.88L43.1554 168.49L69.0159 142.606L96.9771 170.614L97.1871 170.824L102.229 168.957C117.514 163.337 131.395 154.46 142.91 142.942C154.424 131.424 163.296 117.54 168.91 102.252L170.778 97.2104L142.583 69.0393L168.444 43.1554L192.834 67.5455C195.354 70.0662 196.521 73.6139 195.938 77.0682Z" fill="black"/>
-                        </svg>
+					<nav class="page-header__socials-block">
+						<a href="https://t.me/" target="_blank" class="page-header__social-link tg-link">
+							<svg width="264" height="264" viewBox="0 0 264 264" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M227.315 40.887L32.2851 116.094C18.9751 121.44 19.0521 128.865 29.8431 132.176L79.9151 147.796L195.767 74.701C201.245 71.368 206.25 73.161 202.136 76.813L108.273 161.524H108.251L108.273 161.535L104.819 213.147C109.879 213.147 112.112 210.826 114.95 208.087L139.271 184.437L189.86 221.804C199.188 226.941 205.887 224.301 208.208 213.169L241.417 56.661C244.816 43.032 236.214 36.861 227.315 40.887V40.887Z"/>
+							</svg>
+						</a>
 
-                        <span>+7 (999) 999-99-99</span>
-                    </a>
-                </nav>
+						<a href="tel:+7 (999) 999-99-99" class="page-header__phone">
+							<svg width="239" height="239" viewBox="0 0 239 239" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M204.714 55.7122L179.857 30.8786C176.823 27.8444 172.762 26.1406 168.467 26.1406C164.172 26.1406 160.111 27.8211 157.077 30.8786L130.306 57.6027C127.272 60.6369 125.568 64.7214 125.568 69.0159C125.568 73.3338 127.249 77.3716 130.306 80.4291L151.219 101.365C146.455 112.465 139.61 122.55 131.053 131.077C122.487 139.689 112.475 146.481 101.365 151.289L80.4524 130.353C77.4183 127.319 73.3571 125.615 69.0626 125.615C66.9443 125.607 64.8458 126.022 62.89 126.836C60.9342 127.649 59.1605 128.845 57.6728 130.353L30.8786 157.077C27.8444 160.111 26.1406 164.196 26.1406 168.49C26.1406 172.808 27.8211 176.846 30.8786 179.904L55.7122 204.737C60.8937 209.919 68.0356 212.883 75.3644 212.883C76.8814 212.883 78.3519 212.766 79.8456 212.509C110.748 207.421 141.416 190.967 166.18 166.226C190.92 141.439 207.351 110.771 212.486 79.8456C213.956 71.0698 211.016 62.0373 204.714 55.7122V55.7122ZM195.938 77.0682C191.387 104.586 176.589 132.033 154.3 154.323C132.01 176.613 104.586 191.41 77.0682 195.961C73.6139 196.545 70.0662 195.378 67.5455 192.88L43.1554 168.49L69.0159 142.606L96.9771 170.614L97.1871 170.824L102.229 168.957C117.514 163.337 131.395 154.46 142.91 142.942C154.424 131.424 163.296 117.54 168.91 102.252L170.778 97.2104L142.583 69.0393L168.444 43.1554L192.834 67.5455C195.354 70.0662 196.521 73.6139 195.938 77.0682Z" fill="black"/>
+							</svg>
 
-                <a href="/" class="logo-wrapper" title="Перейти на главную страницу">
-                    <img src="/site/upload/images/logo.jpg" alt="Логотип Sweet World">
-                </a>
+							<span>+7 (999) 999-99-99</span>
+						</a>
+					</nav>
+				</div>
     
                 <nav class="page-header__right-navigation">
                     <a href="/src/personal/" title="Перейти в личный кабинет" class="page-header__site-navigation-link">
@@ -66,21 +70,68 @@
                         </svg>
                     </a>
 
-                    <button id="change-site-theme" title="Сменить тему сайта" aria-label="Сменить тему сайта">
+                    <button id="change-site-theme" title="Сменить тему сайта" aria-label="Сменить тему сайта" class="page-header__site-navigation-link">
+						<svg width="38" height="36" viewBox="0 0 38 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M17.4519 0V6.92308H20.3606V0H17.4519ZM6.54447 4.284L4.49969 6.23077L9.63492 11.1642L11.7262 9.17308L6.54447 4.284ZM31.268 4.284L26.0863 9.17308L28.1776 11.1642L33.3128 6.23077L31.268 4.284ZM18.9062 8.30769C13.2998 8.30769 8.72596 12.6623 8.72596 18C8.72596 23.3377 13.2998 27.6923 18.9062 27.6923C24.5127 27.6923 29.0865 23.3377 29.0865 18C29.0865 12.6623 24.5127 8.30769 18.9062 8.30769ZM18.9062 11.0769C22.9391 11.0769 26.1779 14.1605 26.1779 18C26.1779 21.8395 22.9391 24.9231 18.9062 24.9231C14.8734 24.9231 11.6346 21.8395 11.6346 18C11.6346 14.1605 14.8734 11.0769 18.9062 11.0769ZM0 16.6154V19.3846H7.27163V16.6154H0ZM30.5409 16.6154V19.3846H37.8125V16.6154H30.5409ZM9.63492 24.8372L4.49969 29.7692L6.54447 31.716L11.7262 26.8269L9.63492 24.8372ZM28.1776 24.8372L26.0863 26.8269L31.268 31.716L33.3128 29.7692L28.1776 24.8372ZM17.4519 29.0769V36H20.3606V29.0769H17.4519Z" fill="black"/>
+						</svg>
+					</button>
 
-                    </button>
-                </nav>
-
-                <nav class="page-header__site-navigation">
-                    <a href="/src/dostavka/" class="site-navigation__link">Доставка</a>
-                    <a href="/src/o-nas/" class="site-navigation__link">О нас</a>
-                    <a href="/src/katalog/" class="site-navigation__link">Каталог</a>
-                    <a href="/src/otzivi/" class="site-navigation__link">Отзывы</a>
-                    <a href="/src/kontakty/" class="site-navigation__link">Контакты</a>
+					<button id="open-left-menu" class="open-desktop-menu-btn" title="Открыть меню">
+						<span class="line"></span>
+						<span class="line"></span>
+						<span class="line"></span>
+					</button>
                 </nav>
             </div>
         </div>
+
+		<div class="drip-elem left"></div>
+		<div class="drip-elem center"></div>
+		<div class="drip-elem right-center"></div>
+		<div class="drip-elem right"></div>
     </header>
+
+	<div class="container-1440">
+		<div class="search-catalog-wrapper">
+			<form action="" method="POST" class="search-panel">
+				<button type="submit" class="search-submit">
+					<svg width="170" height="170" viewBox="0 0 170 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M168.869 157.246L114.088 102.466C122.589 91.4758 127.187 78.0391 127.187 63.9062C127.187 46.9891 120.585 31.1266 108.646 19.1664C96.707 7.20625 80.8023 0.625 63.9062 0.625C47.0102 0.625 31.1055 7.22734 19.1664 19.1664C7.20625 31.1055 0.625 46.9891 0.625 63.9062C0.625 80.8023 7.22734 96.707 19.1664 108.646C31.1055 120.606 46.9891 127.187 63.9062 127.187C78.0391 127.187 91.4547 122.589 102.445 114.109L157.225 168.869C157.386 169.029 157.576 169.157 157.786 169.244C157.996 169.331 158.221 169.376 158.448 169.376C158.676 169.376 158.901 169.331 159.111 169.244C159.321 169.157 159.511 169.029 159.672 168.869L168.869 159.693C169.029 159.532 169.157 159.342 169.244 159.132C169.331 158.922 169.376 158.697 169.376 158.47C169.376 158.242 169.331 158.017 169.244 157.807C169.157 157.597 169.029 157.407 168.869 157.246ZM97.3187 97.3187C88.375 106.241 76.5203 111.156 63.9062 111.156C51.2922 111.156 39.4375 106.241 30.4937 97.3187C21.5711 88.375 16.6562 76.5203 16.6562 63.9062C16.6562 51.2922 21.5711 39.4164 30.4937 30.4937C39.4375 21.5711 51.2922 16.6562 63.9062 16.6562C76.5203 16.6562 88.3961 21.55 97.3187 30.4937C106.241 39.4375 111.156 51.2922 111.156 63.9062C111.156 76.5203 106.241 88.3961 97.3187 97.3187Z" fill="black"/>
+					</svg>
+				</button>
+				<input type="text" name="query" class="search-panel__input" placeholder="Поиск">
+			</form>
+
+			<div class="catalog-btn-wrapper">
+				<a href="/src/catalog/" class="catalog-btn__text" title="Перейти в каталог">Каталог</a>
+
+				<button id="open-catalog-menu" title="Открыть меню каталога">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</button>
+			</div>
+		</div>
+
+		<div class="breadcrumbs-wrapper">
+			<a href="/" class="breadcrumbs-item">Главная</a>
+			<span class="delimiter"> - </span>
+			<a href="/" class="breadcrumbs-item">Отзывы</a>
+			<span class="delimiter"> - </span>
+			<span class="breadcrumbs-item">Отзывы</span>
+		</div>
+	</div>
+
+	<div class="aside-darkener"></div>
+	<aside id="desktop-menu" class="desktop-left-menu">
+		<nav class="page-header__site-navigation">
+			<a href="/src/dostavka/" class="site-navigation__link">Доставка</a>
+			<a href="/src/o-nas/" class="site-navigation__link">О нас</a>
+			<a href="/src/katalog/" class="site-navigation__link">Каталог</a>
+			<a href="/src/otzivi/" class="site-navigation__link">Отзывы</a>
+			<a href="/src/kontakty/" class="site-navigation__link">Контакты</a>
+		</nav>
+	</aside>
 
     <main>
         <section class="mainpage-top-slider-wrapper">
