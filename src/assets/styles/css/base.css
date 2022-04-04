@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&display=swap");
 .container-1440 {
   width: 100%;
   max-width: 1480px;
@@ -17,7 +17,7 @@ body {
   flex-flow: column nowrap;
   justify-content: space-between;
   align-items: flex-start;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Vollkorn SC", serif;
 }
 
 header, main, footer {
@@ -27,6 +27,13 @@ header, main, footer {
 main {
   flex-grow: 1;
   flex-shrink: 1;
+}
+
+.heading-1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 89px;
 }
 
 /*# sourceMappingURL=base.css.map */
