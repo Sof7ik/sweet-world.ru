@@ -6,12 +6,23 @@
 }
 
 body {
-    margin: 0;
+    margin: 0;    
 }
+
+
 
 main {
     font-family: 'Vollkorn SC', serif;
     color: var(--main-color);
+}
+
+.right {
+    height: 400px;
+    background-color: black;
+}
+
+.wrapper {
+    /* width: 70%; */
 }
 
 .main__title {
@@ -103,10 +114,15 @@ main {
     border-radius: 0px 50px 50px 0px;
     max-width: 58%;
     min-width: 770px;
-    transform: translateX(-1px);
+    margin-top: -100px;
     z-index: 1;
     overflow: visible;
     position: relative;
+    transform: translate(-2px);
+}
+
+.reviews__review--first {
+    margin-top: 0;
 }
 
 .reviews__user {
@@ -137,6 +153,10 @@ main {
     font-weight: 800;
 }
 
+.reviews__text--translucent {
+    color: #a37a7a;
+}
+
 .reviews__stars {
     width: 140px;
 }
@@ -149,35 +169,81 @@ main {
 .reviews__review-wrapper {
     width: 70%;
     margin-left: 20%;
+    margin-top: 100px;
+    padding-bottom: 20px;
 }
+
+.reviews__review-wrapper--first {
+    margin-top: 0;
+}
+
+.reviews__gallery {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    width: 100%;
+}
+
+.reviews__item {
+    height: 100px;
+    width: 13%;
+    background-color: #C4C4C4;
+    border-radius: 20px;
+}
+
+.rewiews__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .reviews__answer{
     border-radius: 0px 00px 50px 0px;
     max-width: 58%;
+    position: relative;
     min-height: 470px;
     min-width: 770px;
-    transform: translateY(-100px);
+    margin-top: -200px;
     background-color: var(--background-color);
 }
 
 .reviews__review-wrapper--answer {
-    transform: translateY(100px);
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
 
-#split-1, #split-2, #split-3{
+.reviews__split {
     position: absolute;
     overflow: visible;  
+    bottom: 0;
 }
 
 #split-1 {
-    transform: translate(-60%, 641px)
+    margin-left: -20px;
+    transform: translateY(184px);
 }
 
 #split-2 {
-    transform: translate(70%, 593px)
+    margin-left: 10%;
+    transform: translateY(346px);
 }
 
 #split-3 {
-    transform: translate(1570%, 641px)
+    margin-left: 87%;
+    transform: translateY(184px);
 }
 
+#post-3 {
+    z-index: -1;
+}
+#post-4 {
+    z-index: -2;
+}
+#post-5 {
+    z-index: -3;
+}
+#post-6 {
+    z-index: -4;
+}
