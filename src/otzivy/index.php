@@ -1,16 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="rewiews.css">
-</head>
-<body>
-    <header></header>
+<?php
+	require_once($_SERVER["DOCUMENT_ROOT"] . "/src/config.php");
 
-    <main class="main">
+	$APPLICATION["title"] = "Отзывы о нас";
+
+	$APPLICATION["styles"][] = "/src/assets/styles/css/reviews.css";
+
+	require_once($_SERVER["DOCUMENT_ROOT"] . "/src/header.php");
+?>
         <h1 class="main__title">
             Отзывы о нас
         </h1>
