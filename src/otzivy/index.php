@@ -18,7 +18,7 @@
 					<p class="statistic__rating-value">
 						4,3
 					</p>
-					<img src="../site/upload/images/stars.svg" alt="" class="statistic__rating-stars">
+					<img src="/site/upload/images/stars.svg" alt="звездочки" class="statistic__rating-stars">
 				</div>
 				<p class="statistic__rating-text">
 					Рейтинг за 3 месяца
@@ -45,9 +45,9 @@
 	</div>
 	<ul class="main__reviews reviews">
 		<li class="reviews__review reviews__review--first">
-			<img src="../site/upload/images/split1.svg" class="reviews__split" id="split-1" alt="">
-			<img src="../site/upload/images/split2.svg" class="reviews__split" id="split-2" alt="">
-			<img src="../site/upload/images/split1.svg" class="reviews__split" id="split-3" alt="">
+			<img src="/site/upload/images/split1.svg" class="reviews__split" id="split-1" alt="">
+			<img src="/site/upload/images/split2.svg" class="reviews__split" id="split-2" alt="">
+			<img src="/site/upload/images/split1.svg" class="reviews__split" id="split-3" alt="">
 			<div class="reviews__review-wrapper reviews__review-wrapper--first">
 				<div class="reviews__user">
 					<img src="" alt="" class="reviews__userpic">
@@ -56,7 +56,7 @@
 							Уважаемый человек
 						</p>
 						<div class="reviews__user-stats">
-							<img src="../site/upload/images/stars.svg" alt="" class="reviews__stars">
+							<img src="/site/upload/images/stars.svg" alt="" class="reviews__stars">
 							<p class="reviews__text reviews__text--translucent">321 покупка</p>
 						</div>
 					</div>
@@ -78,7 +78,7 @@
 					<li class="reviews__item"><img src="" class="reviews__image" alt=""></li>
 					<li class="reviews__item"><img src="" class="reviews__image" alt=""></li>
 				</ul>
-				<div class="rewiews__bottom">
+				<div class="reviews__bottom">
 					<p class="reviews__text reviews__text--bold">
 						2 ответа
 					</p>
@@ -162,9 +162,9 @@
 			</div>
 		</li>
 		<li class="reviews__review" id="post-4">
-			<img src="../site/upload/images/split1.svg" class="reviews__split" id="split-1" alt="">
-			<img src="../site/upload/images/split2.svg" class="reviews__split" id="split-2" alt="">
-			<img src="../site/upload/images/split1.svg" class="reviews__split" id="split-3" alt="">
+			<img src="/site/upload/images/split1.svg" class="reviews__split" id="split-1" alt="">
+			<img src="/site/upload/images/split2.svg" class="reviews__split" id="split-2" alt="">
+			<img src="/site/upload/images/split1.svg" class="reviews__split" id="split-3" alt="">
 			<div class="reviews__review-wrapper">
 				<div class="reviews__user">
 					<img src="" alt="" class="reviews__userpic">
@@ -173,7 +173,7 @@
 							Уважаемый человек
 						</p>
 						<div class="reviews__user-stats">
-							<img src="../site/upload/images/stars.svg" alt="" class="reviews__stars">
+							<img src="/site/upload/images/stars.svg" alt="" class="reviews__stars">
 							<p class="reviews__text reviews__text--translucent">321 покупка</p>
 						</div>
 					</div>
