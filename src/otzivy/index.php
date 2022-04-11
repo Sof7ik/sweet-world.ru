@@ -21,7 +21,7 @@
                         <p class="statistic__rating-value">
                             4,3
                         </p>
-                        <img src="../site/upload/images/stars.svg" alt="" class="statistic__rating-stars">
+                        <img src="../../site/upload/images/stars.svg" alt="" class="statistic__rating-stars">
                     </div>
                     <p class="statistic__rating-text">
                         Рейтинг за 3 месяца
@@ -48,9 +48,9 @@
         </div>
         <ul class="main__reviews reviews">
             <li class="reviews__review">
-                <img src="../site/upload/images/split1.svg" id="split-1" alt="">
-                <img src="../site/upload/images/split2.svg" id="split-2" alt="">
-                <img src="../site/upload/images/split1.svg" id="split-3" alt="">
+                <img src="../../site/upload/images/split1.svg" id="split-1" alt="">
+                <img src="../../site/upload/images/split2.svg" id="split-2" alt="">
+                <img src="../../site/upload/images/split1.svg" id="split-3" alt="">
                 <div class="reviews__review-wrapper">
                     <div class="reviews__user">
                         <img src="" alt="" class="reviews__userpic">
@@ -59,7 +59,7 @@
                                 Уважаемый человек
                             </p>
                             <div class="reviews__user-stats">
-                                <img src="../site/upload/images/stars.svg" alt="" class="reviews__stars">
+                                <img src="../../site/upload/images/stars.svg" alt="" class="reviews__stars">
                                 <p class="reviews__text reviews__text--translucent">321 покупка</p>
                             </div>
                         </div>
