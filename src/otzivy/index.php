@@ -151,7 +151,7 @@
 					<li class="reviews__item"><img src="" class="reviews__image" alt=""></li>
 					<li class="reviews__item"><img src="" class="reviews__image" alt=""></li>
 				</ul>
-				<div class="rewiews__bottom">
+				<div class="reviews__bottom">
 					<p class="reviews__text reviews__text--bold">
 						2 ответа
 					</p>
@@ -195,7 +195,7 @@
 					<li class="reviews__item"><img src="" class="reviews__image" alt=""></li>
 					<li class="reviews__item"><img src="" class="reviews__image" alt=""></li>
 				</ul>
-				<div class="rewiews__bottom">
+				<div class="reviews__bottom">
 					<p class="reviews__text reviews__text--bold">
 						2 ответа
 					</p>
@@ -268,7 +268,7 @@
 					<li class="reviews__item"><img src="" class="reviews__image" alt=""></li>
 					<li class="reviews__item"><img src="" class="reviews__image" alt=""></li>
 				</ul>
-				<div class="rewiews__bottom">
+				<div class="reviews__bottom">
 					<p class="reviews__text reviews__text--bold">
 						2 ответа
 					</p>
