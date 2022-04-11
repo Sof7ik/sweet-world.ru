@@ -142,6 +142,10 @@ main {
     font-weight: 800;
 }
 
+.reviews__text--translucent {
+    color: #a37a7a;
+}
+
 .reviews__stars {
     width: 140px;
 }
@@ -155,10 +159,31 @@ main {
     width: 70%;
     margin-left: 20%;
     margin-top: 100px;
+    padding-bottom: 20px;
 }
 
 .reviews__review-wrapper--first {
     margin-top: 0;
+}
+
+.reviews__gallery {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.rewiews__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews__item {
+    height: 100px;
+    width: 100px;
+    background-color: #C4C4C4;
+    border-radius: 20px;
 }
 
 .reviews__answer{
