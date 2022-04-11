@@ -18,11 +18,6 @@
 	{?>
 		<link rel="stylesheet" href="<?= $style ?>">
 	<?php }?>
-
-	<!-- Connect JS	-->
-	<?php foreach ($APPLICATION["scripts"] as $js){?>
-		<script src="<?= $js ?>" defer></script>
-	<?php }?>
 </head>
 <body>
 <header id="page-header">
@@ -102,7 +97,7 @@
 		</form>
 
 		<div class="catalog-btn-wrapper">
-			<a href="/src/catalog/" class="catalog-btn__text" title="Перейти в каталог">Каталог</a>
+			<a href="/src/katalog/" class="catalog-btn__text" title="Перейти в каталог">Каталог</a>
 
 			<button id="open-catalog-menu" title="Открыть меню каталога">
 				<span class="line"></span>

@@ -156,7 +156,7 @@
 #open-left-menu
 {
 	width: 23px;
-	height: 20px;
+	height: 16px;
 
 	position: relative;
 
@@ -201,30 +201,50 @@
 {
 	position: absolute;
 	background-color: $mainYellow;
+	z-index: -1;
+
+	top: 100%;
 }
 .drip-elem.left
 {
-	width: 74px;
+	//width: 74px;
+	width: 60px;
 	height: 152px;
 
-	top: 100%;
 	left: 40px;
 	border-radius: 0 0 40px 40px;
 }
+.drip-elem.center
+{
+	width: 64px;
+	height: 50px;
+
+	border-radius: 0 0 50% 50%;
+
+	left: 20%;
+}
+.drip-elem.right-center
+{
+	width: 64px;
+	height: 50px;
+	border-radius: 0 0 50% 50%;
+
+	left: 80%;
+}
+
 .drip-elem.right
 {
-	width: 57px;
+	width: calc(57px / 2);
 	height: 152px;
 
-	top: 100%;
-	right: -14px;
-	border-radius: 0 0 40px 40px;
+	right: 0;
+	border-radius: 0 0 0 40px;
 }
 
 // search panel
 .search-catalog-wrapper
 {
-	margin-top: 35px;
+	margin-top: 20px;
 
 	background-color: $mainBrown;
 	border-radius: 19px;
@@ -296,10 +316,14 @@
 	flex-flow: row nowrap;
 	justify-content: flex-start;
 	align-items: center;
+
+	margin-left: 30px;
 }
 
 .catalog-btn__text
 {
+	position: relative;
+
 	display: block;
 	margin-right: 15px;
 
@@ -309,14 +333,37 @@
 	line-height: 28px;
 
 	color: #FFFFFF;
-}
 
+	&::before
+	{
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 0;
+		height: 1px;
+		background-color: #fff;
+
+		transition: width .4s;
+	}
+
+	@media screen and (min-width: 769px)
+	{
+		&:hover::before
+		{
+			width: 100%;
+		}
+	}
+}
+ 
 #open-catalog-menu
 {
 	position: relative;
 
-	width: 30px;
-	height: 18px;
+	width: 23px;
+	height: 16px;
+
+	transition: transform .3s;
 	.line
 	{
 		position: absolute;
@@ -339,15 +386,31 @@
 		}
 
 	}
+
+	@media screen and (min-width: 769px)
+	{
+		&:hover
+		{
+			transform: scaleY(1.3);
+			//.line:first-child
+			//{
+			//	top: -3px;
+			//}
+			//.line:last-child
+			//{
+			//	bottom: -3px;
+			//}
+		}
+	}
 }
 
 // breadcrumbs
 .breadcrumbs-wrapper
 {
-	margin-top: 30px;
+	margin-top: 20px;
 	width: 100%;
 
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 .breadcrumbs-item
