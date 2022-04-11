@@ -172,6 +172,14 @@ main {
     flex-direction: row;
     justify-content: space-around;
     padding: 0;
+    width: 100%;
+}
+
+.reviews__item {
+    height: 100px;
+    width: 13%;
+    background-color: #C4C4C4;
+    border-radius: 20px;
 }
 
 .rewiews__bottom {
@@ -179,12 +187,6 @@ main {
     justify-content: space-between;
 }
 
-.reviews__item {
-    height: 100px;
-    width: 100px;
-    background-color: #C4C4C4;
-    border-radius: 20px;
-}
 
 .reviews__answer{
     border-radius: 0px 00px 50px 0px;
