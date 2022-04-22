@@ -6,12 +6,6 @@
   padding: 0 20px;
 }
 
-html, body {
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-}
-
 body {
   display: flex;
   flex-flow: column nowrap;
@@ -27,6 +21,7 @@ header, main, footer {
 main {
   flex-grow: 1;
   flex-shrink: 1;
+  padding-bottom: 90px;
 }
 
 .heading-1 {
