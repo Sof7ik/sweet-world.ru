@@ -8,6 +8,23 @@ $APPLICATION = [
 		"type" => "image/jpeg",
 	],
 
+	"socials" => [
+		"vk" => [
+			"HREF" => "https://vk.com/sweetworldpublic",
+			"title" => "Мы в ВК",
+			"iconSrc" => "/site/upload/icons/cib_vk-social.svg",
+ 		]
+		,
+		"telegram" => [
+			"HREF" => "https://t.me/sweet_worldofficial",
+			"title" => "Мы в телеграмм",
+			"iconSrc" => "/site/upload/icons/telegram.svg",
+		],
+	],
+
+	"phone_number" => "+7 (999) 999-99-99",
+	"email" => "",
+
 	"styles" => [
 		"https://unpkg.com/swiper@8/swiper-bundle.min.css",
 

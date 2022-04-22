@@ -11,7 +11,7 @@
 
 	<div class="container-1440">
 		<h1 class="heading-1 main__title">
-			Отзывы о нас
+			<?=$APPLICATION["title"]?>
 		</h1>
 
 		<section class="reviews-total-stat-wrapper">

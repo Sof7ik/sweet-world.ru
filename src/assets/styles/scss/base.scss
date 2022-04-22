@@ -1,6 +1,5 @@
-//@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;600;700;800;900&display=swap');
+@import "init";
 
 .container-1440
 {
@@ -10,13 +9,6 @@
 	padding: 0 20px;
 }
 
-//html, body
-//{
-//	width: 100%;
-//	height: 100%;
-//	overflow-x: hidden;
-//}
-
 body
 {
 	display: flex;
@@ -25,6 +17,11 @@ body
 	align-items: flex-start;
 
 	font-family: 'Vollkorn', serif;
+}
+
+.not-scrollable
+{
+	overflow-y: hidden;
 }
 
 header, main, footer
@@ -45,5 +42,21 @@ main
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 89px;
+	line-height: 60px;
+
+	color: $mainBrown;
+
+	margin-bottom: 30px;
+}
+
+.heading-2
+{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 45px;
+
+	color: $mainBrown;
+
+	margin-bottom: 30px;
 }

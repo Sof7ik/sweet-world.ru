@@ -8,6 +8,8 @@ function openMenu(event)
     menuElem.classList.add('showed');
     asideDarkenerElem.classList.add('showed');
 
+    document.body.classList.add("not-scrollable")
+
     event.currentTarget.removeEventListener('click', openMenu);
     event.currentTarget.addEventListener('click', closeMenu);
 }
@@ -19,6 +21,8 @@ function closeMenu(event)
     target.classList.remove('menu-opened');
     menuElem.classList.remove('showed');
     asideDarkenerElem.classList.remove('showed');
+
+    document.body.classList.remove("not-scrollable")
 
     target.addEventListener('click', openMenu);
     target.removeEventListener('click', closeMenu);

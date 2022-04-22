@@ -14,6 +14,10 @@ body {
   font-family: "Vollkorn", serif;
 }
 
+.not-scrollable {
+  overflow-y: hidden;
+}
+
 header, main, footer {
   width: 100%;
 }
@@ -28,5 +32,18 @@ main {
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  line-height: 89px;
-}/*# sourceMappingURL=base.css.map */
+  line-height: 60px;
+  color: #793B3B;
+  margin-bottom: 30px;
+}
+
+.heading-2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 45px;
+  color: #793B3B;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=base.css.map */

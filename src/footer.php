@@ -3,21 +3,12 @@
 	<footer id="page-footer">
 		<div class="container-1440 footer-inner-container">
 			<div class="socials-list">
-				<a href="https://vk.com/feed" class="socials-list__social-item" title="Мы в ВК">
-					<img src="/site/upload/icons/cib_vk-social.svg" alt="vk">
-				</a>
-
-				<a href="https://vk.com/feed" class="socials-list__social-item" title="Мы в телеграмме">
-					<img src="/site/upload/icons/telegram.svg" alt="telegram">
-				</a>
-
-				<a href="https://vk.com/feed" class="socials-list__social-item" title="Мы в ВК">
-					<img src="/site/upload/icons/cib_vk-social.svg" alt="vk">
-				</a>
-
-				<a href="https://vk.com/feed" class="socials-list__social-item" title="Мы в ВК">
-					<img src="/site/upload/icons/cib_vk-social.svg" alt="vk">
-				</a>
+				<?php foreach ($APPLICATION['socials'] as $socialName => $social) {?>
+					<a target="_blank" href="<?=$social["HREF"]?>" class="socials-list__social-item"
+					   title="<?=$social["title"]?>">
+						<img src="<?=$social["iconSrc"]?>" alt="<?=$socialName?>">
+					</a>
+				<?php }?>
 			</div>
 
 			<div class="right-footer-wrapper">

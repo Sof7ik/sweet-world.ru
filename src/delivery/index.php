@@ -1,27 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
+<?php
+require_once($_SERVER["DOCUMENT_ROOT"] . "/src/config.php");
 
-    </header>
-    <main class="main">
-        <div class="main__wrapper">
-            <div class="main__crumbs">
-                <a href="#" class="main__crumb">Главная</a>
-                <a href="#" class="main__crumb main__crumb--curent"> - Отзывы</a>            
-            </div>
-            <h1 class="main__heading">Доставка\Самовывоз</h1>
+$APPLICATION["title"] = "Доставка и самовывоз";
+
+$APPLICATION["styles"][] = "/src/assets/styles/css/delivery.css";
+$APPLICATION["scripts"][] = "/src/assets/js/delivery.js";
+
+require_once($_SERVER["DOCUMENT_ROOT"] . "/src/header.php");
+?>
+
+	<div class="container-1440">
+            <h1 class="heading-1 main__heading">
+				<?=$APPLICATION["title"]?>
+			</h1>
+
             <div class="main__toggler">
                 <button class="main__button toggleDel main__button--active" onclick="toggleDelivery()">Доставка</button>
                 <button class="main__button togglePick " onclick="togglePickup()">Самовывоз</button>
             </div>
+
             <div class="main__delivery delivery">
                 <div class="delivery__container container">
                     <h2 class="container__heading">Экспесс доставка за 2 часа</h2>
@@ -110,7 +107,8 @@
                     </table>
                 </div>
                 <p class="delivery__footnote">
-                    *Указаны сроки доставки без учета дней на создание и сборку заказа  Время на создание и сборку индивидуально и сообщается во время обсуждения заказа вместе с вами 
+                    *Указаны сроки доставки без учета дней на создание и сборку заказа. Время на создание и сборку
+					индивидуально и сообщается во время обсуждения заказа вместе с вами
                 </p>
             </div>
             <div class="main__pickup pickup pickup--hidden">
@@ -160,10 +158,6 @@
                 <img src="../../site/upload/images/map.jpg" class="pickup__map" alt="">
             </div>
         </div>
-    </main>
-    <footer>
-
-    </footer>
-    <script src="script.js"></script>
-</body>
-</html>
+<?php
+require_once($_SERVER["DOCUMENT_ROOT"] . "/src/footer.php");
+?>

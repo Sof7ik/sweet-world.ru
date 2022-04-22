@@ -20,6 +20,13 @@
 	<?php }?>
 </head>
 <body>
+
+<?
+//echo "<pre>";
+//print_r($_SERVER);
+//echo "</pre>"
+?>
+
 <header id="page-header">
 	<div class="container-1440">
 		<div class="page-header__inner-container">
@@ -29,18 +36,19 @@
 				</a>
 
 				<nav class="page-header__socials-block">
-					<a href="https://t.me/" target="_blank" class="page-header__social-link tg-link">
+					<a href="<?=$APPLICATION["socials"]["telegram"]?>" target="_blank" class="page-header__social-link
+					tg-link">
 						<svg width="264" height="264" viewBox="0 0 264 264" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M227.315 40.887L32.2851 116.094C18.9751 121.44 19.0521 128.865 29.8431 132.176L79.9151 147.796L195.767 74.701C201.245 71.368 206.25 73.161 202.136 76.813L108.273 161.524H108.251L108.273 161.535L104.819 213.147C109.879 213.147 112.112 210.826 114.95 208.087L139.271 184.437L189.86 221.804C199.188 226.941 205.887 224.301 208.208 213.169L241.417 56.661C244.816 43.032 236.214 36.861 227.315 40.887V40.887Z"/>
 						</svg>
 					</a>
 
-					<a href="tel:+7 (999) 999-99-99" class="page-header__phone">
+					<a href="tel:<?=$APPLICATION["phone_number"]?>" class="page-header__phone">
 						<svg width="239" height="239" viewBox="0 0 239 239" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M204.714 55.7122L179.857 30.8786C176.823 27.8444 172.762 26.1406 168.467 26.1406C164.172 26.1406 160.111 27.8211 157.077 30.8786L130.306 57.6027C127.272 60.6369 125.568 64.7214 125.568 69.0159C125.568 73.3338 127.249 77.3716 130.306 80.4291L151.219 101.365C146.455 112.465 139.61 122.55 131.053 131.077C122.487 139.689 112.475 146.481 101.365 151.289L80.4524 130.353C77.4183 127.319 73.3571 125.615 69.0626 125.615C66.9443 125.607 64.8458 126.022 62.89 126.836C60.9342 127.649 59.1605 128.845 57.6728 130.353L30.8786 157.077C27.8444 160.111 26.1406 164.196 26.1406 168.49C26.1406 172.808 27.8211 176.846 30.8786 179.904L55.7122 204.737C60.8937 209.919 68.0356 212.883 75.3644 212.883C76.8814 212.883 78.3519 212.766 79.8456 212.509C110.748 207.421 141.416 190.967 166.18 166.226C190.92 141.439 207.351 110.771 212.486 79.8456C213.956 71.0698 211.016 62.0373 204.714 55.7122V55.7122ZM195.938 77.0682C191.387 104.586 176.589 132.033 154.3 154.323C132.01 176.613 104.586 191.41 77.0682 195.961C73.6139 196.545 70.0662 195.378 67.5455 192.88L43.1554 168.49L69.0159 142.606L96.9771 170.614L97.1871 170.824L102.229 168.957C117.514 163.337 131.395 154.46 142.91 142.942C154.424 131.424 163.296 117.54 168.91 102.252L170.778 97.2104L142.583 69.0393L168.444 43.1554L192.834 67.5455C195.354 70.0662 196.521 73.6139 195.938 77.0682Z" fill="black"/>
 						</svg>
 
-						<span>+7 (999) 999-99-99</span>
+						<span><?=$APPLICATION["phone_number"]?></span>
 					</a>
 				</nav>
 			</div>
@@ -107,20 +115,26 @@
 		</div>
 	</div>
 
-	<div class="breadcrumbs-wrapper">
-		<a href="/" class="breadcrumbs-item">Главная</a>
-		<span class="delimiter"> - </span>
-		<a href="/" class="breadcrumbs-item">Отзывы</a>
-		<span class="delimiter"> - </span>
-		<span class="breadcrumbs-item">Отзывы</span>
-	</div>
+	<?php if ($_SERVER["REQUEST_URI"] != "/") {?>
+		<div class="breadcrumbs-wrapper">
+			<a href="/" class="breadcrumbs-item">Главная</a>
+			<span class="delimiter"> - </span>
+			<a href="/" class="breadcrumbs-item">Отзывы</a>
+			<span class="delimiter"> - </span>
+			<span class="breadcrumbs-item">Отзывы</span>
+		</div>
+	<?php } ?>
 </div>
 
 <div class="aside-darkener"></div>
 <aside id="desktop-menu" class="desktop-left-menu">
 	<nav class="page-header__site-navigation">
 		<?php foreach($arMenuLinks as $arMenuName => $arMenuLink) {?>
-			<a href="<?=$arMenuLink?>" class="site-navigation__link"><?=$arMenuName?></a>
+			<a
+				href="<?=$arMenuLink?>"
+				class="site-navigation__link <?=$_SERVER["REQUEST_URI"] === $arMenuLink ? "active" : "" ?>">
+				<?=$arMenuName?>
+			</a>
 		<?php }?>
 	</nav>
 </aside>
