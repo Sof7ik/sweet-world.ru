@@ -1,4 +1,48 @@
-<svg width="69" height="353" viewBox="0 0 69 353" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.5 5.5H68.5V318.5C68.5 337.278 53.2777 352.5 34.5 352.5C15.7223 352.5 0.5 337.278 0.5 318.5V5.5Z" fill="white" stroke="#CE9473"/>
-<rect width="69" height="59" fill="white"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="69"
+   height="353"
+   viewBox="0 0 69 353"
+   fill="none"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="split2.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="false"
+     inkscape:zoom="13.577451"
+     inkscape:cx="26.698679"
+     inkscape:cy="5.7079934"
+     inkscape:window-width="1920"
+     inkscape:window-height="1006"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <path
+     d="M0.5 5.5H68.5V318.5C68.5 337.278 53.2777 352.5 34.5 352.5C15.7223 352.5 0.5 337.278 0.5 318.5V5.5Z"
+     fill="white"
+     stroke="#CE9473"
+     id="path2" />
+  <rect
+     width="69.159943"
+     height="11.744775"
+     fill="#ffffff"
+     id="rect4"
+     x="-0.072105534"
+     y="-4.3956194"
+     style="stroke-width:0.44668" />
 </svg>
