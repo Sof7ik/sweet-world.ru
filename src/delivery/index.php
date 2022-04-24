@@ -3,7 +3,7 @@ require_once($_SERVER["DOCUMENT_ROOT"] . "/src/config.php");
 
 $APPLICATION["title"] = "Доставка и самовывоз";
 
-$APPLICATION["styles"][] = "/src/assets/styles/css/delivery.css";
+$APPLICATION["styles"][] = "/src/assets/styles/css/delivery.min.css";
 $APPLICATION["scripts"][] = "/src/assets/js/delivery.js";
 
 require_once($_SERVER["DOCUMENT_ROOT"] . "/src/header.php");
@@ -47,7 +47,7 @@ require_once($_SERVER["DOCUMENT_ROOT"] . "/src/header.php");
                     <div class="container__content">
                         <div class="container__text-wrapper">
                             <p class="container__text">
-                                Стандартная доставка — максимально безопасна как для клиентов, так и курьеров. 
+                                Стандартная доставка — максимально безопасна как для клиентов, так и курьеров.
                                 Мы доставим сладости даже на дачу.
                             </p>
                         </div>

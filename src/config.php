@@ -28,14 +28,14 @@ $APPLICATION = [
 	"styles" => [
 		"https://unpkg.com/swiper@8/swiper-bundle.min.css",
 
-		"/src/assets/styles/css/reset.css",
-		"/src/assets/styles/css/base.css",
+		"/src/assets/styles/css/reset.min.css",
+		"/src/assets/styles/css/base.min.css",
 
-		"/src/assets/styles/css/header.css",
-		"/src/assets/styles/css/footer.css",
+		"/src/assets/styles/css/header.min.css",
+		"/src/assets/styles/css/footer.min.css",
 
-		"/src/assets/styles/css/desktop-menu.css",
-		"/src/assets/styles/css/mainpage.css",
+		"/src/assets/styles/css/desktop-menu.min.css",
+		"/src/assets/styles/css/mainpage.min.css",
 	],
 
 	"scripts" => [
