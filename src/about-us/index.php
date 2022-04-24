@@ -12,6 +12,9 @@
         <div>
             <h1>О нас</h1>
         </div>
+        <div>
+
+        </div>
 
 <?php
 require_once($_SERVER["DOCUMENT_ROOT"] . "/src/footer.php");
