@@ -13,8 +13,7 @@ $APPLICATION = [
 			"HREF" => "https://vk.com/sweetworldpublic",
 			"title" => "Мы в ВК",
 			"iconSrc" => "/site/upload/icons/cib_vk-social.svg",
- 		]
-		,
+ 		],
 		"telegram" => [
 			"HREF" => "https://t.me/sweet_worldofficial",
 			"title" => "Мы в телеграмм",
@@ -22,8 +21,9 @@ $APPLICATION = [
 		],
 	],
 
-	"phone_number" => "+7 (999) 999-99-99",
-	"email" => "",
+	"phone_number" => "+7 (912) 262-37-24",
+	"email" => "mail@sweetworld.ru",
+	"location" => "г. Москва, ул. Большая Семёновская, д. 38",
 
 	"styles" => [
 		"https://unpkg.com/swiper@8/swiper-bundle.min.css",
