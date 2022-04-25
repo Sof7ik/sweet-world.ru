@@ -1,0 +1,101 @@
+.mainpage-top-slider .action-item {
+  min-height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.swiper-pagination.mainpage-top-slider__pagination {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  bottom: 20px; }
+
+.swiper-pagination.mainpage-top-slider__pagination .swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+  background-color: #000;
+  margin-right: 10px;
+  transition: background-color .3s; }
+  .swiper-pagination.mainpage-top-slider__pagination .swiper-pagination-bullet:last-child {
+    margin-right: 0; }
+  .swiper-pagination.mainpage-top-slider__pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #fff; }
+
+/* slider content */
+.mainpage-top-slider__content {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none; }
+
+.mainpage-top-slider__shop-name {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 70px;
+  line-height: 85px;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 0.07em; }
+
+.mainpage-top-slider__shop-desc {
+  color: #fff;
+  width: 100%;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center; }
+
+.mainpage-top-slider__search-catalog-wrapper {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center; }
+
+.mainpage-top-slider__search {
+  background-color: #fff;
+  padding: 5px 20px 5px 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  pointer-events: all; }
+
+.mainpage-top-slider__search-loupe {
+  display: block; }
+  .mainpage-top-slider__search-loupe[disabled] {
+    cursor: not-allowed; }
+  .mainpage-top-slider__search-loupe svg {
+    display: block;
+    width: 20px;
+    height: 20px; }
+
+#mainpage-slider-search {
+  background-color: transparent;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+  padding: 5px 10px; }
+
+.mainpage-top-slider__catalog-btn {
+  display: block;
+  background-color: #fff;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  text-align: center;
+  padding: 5px 20px;
+  min-width: 250px;
+  border-radius: 10px;
+  pointer-events: all;
+  transition: background-color .5s; }
+  @media screen and (min-width: 769px) {
+    .mainpage-top-slider__catalog-btn:hover {
+      background-color: #3888D1; } }
+
+/*# sourceMappingURL=mainpage.css.map */
