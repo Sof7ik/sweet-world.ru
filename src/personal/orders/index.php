@@ -14,7 +14,7 @@ $order_discount = 30
 
 <div class="container-1440">
 	<div class="orders-top">
-		<h1 class="main__title">Мои заказы</h1>
+		<h1 class="heading-1 main__title">Мои заказы</h1>
 		<nav class="orders-condition">
 			<ul class="orders-condition-list">
 				<li class="orders-condition__item"><a href="#" class="orders-condition__link active">все(<?php echo $order_all ?>)</a></li>
@@ -92,7 +92,7 @@ $order_discount = 30
 						</div>
 						<div class="orders-grid column-information order__item">
 							<div class="content-wrapper order-item">
-								<svg height="40" width="40" classname="mark">
+								<svg height="40" width="40" class="mark">
 									<circle cx="20" cy="20" r="18" stroke="#CE9473" stroke-width="1" fill="#fff" class="mark__border" />
 									<circle cx="20" cy="20" r="8" fill="#fff" class="mark__content" />
 								</svg>
@@ -198,7 +198,7 @@ $order_discount = 30
 							<div class="content-wrapper ">
 								<h4 class="column-information__title">описание товара</h4>
 							</div>
-							<div class=" content-wrapper order-calculation">
+							<div class="content-wrapper order-calculation">
 								<h4 class="order-calculation__item content-wrapper column-information__title">Цена за шт</h4>
 								<h4 class="order-calculation__item content-wrapper column-information__title">Количество</h4>
 								<h4 class="order-calculation__item content-wrapper column-information__title">Скидка</h4>
@@ -209,7 +209,7 @@ $order_discount = 30
 						</div>
 						<div class="orders-grid column-information order__item">
 							<div class="content-wrapper order-item">
-								<svg height="40" width="40" classname="mark">
+								<svg height="40" width="40" class="mark">
 									<circle cx="20" cy="20" r="18" stroke="#CE9473" stroke-width="1" fill="#fff" class="mark__border" />
 									<circle cx="20" cy="20" r="8" fill="#fff" class="mark__content" />
 								</svg>
