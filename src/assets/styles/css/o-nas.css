@@ -1,4 +1,4 @@
-.about-us__welcome__items {
+.about-us__welcome .welcome__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6,24 +6,24 @@
       flex-wrap: nowrap;
 }
 
-.about-us__welcome__item {
+.about-us__welcome .welcome__item {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
 
-.about-us__welcome__head {
+.about-us__welcome .welcome__item .item__head {
   color: #793B3B;
   font-size: 64px;
 }
 
-.about-us__welcome__text {
+.about-us__welcome .welcome__item .item__text {
   margin-top: 22px;
   color: #793B3B;
   font-size: 24px;
 }
 
-.about-us__welcome__img {
+.about-us__welcome .welcome__item .item__img {
   width: 800px;
   border-radius: 11px;
 }
@@ -32,7 +32,7 @@
   margin-top: 95px;
 }
 
-.about-us__statistic__items {
+.about-us__statistic .statistic__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,7 +40,7 @@
       flex-wrap: nowrap;
 }
 
-.about-us__statistic__item {
+.about-us__statistic .statistic__item {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -49,19 +49,19 @@
   text-align: center;
 }
 
-.about-us__statistic__text {
+.about-us__statistic .statistic__item .item__text {
   display: inline-block;
   text-align: left;
   font-weight: bolder;
 }
 
-.about-us__statistic__header {
+.about-us__statistic .statistic__item .item__header {
   display: block;
   color: #793B3B;
   font-size: 48px;
 }
 
-.about-us__statistic__desc {
+.about-us__statistic .statistic__item .item__desc {
   color: #CE9473;
   font-size: 24px;
 }
@@ -70,13 +70,13 @@
   margin-top: 69px;
 }
 
-.about-us__plus__head {
+.about-us__plus .plus__head {
   font-size: 64px;
   color: #793B3B;
   text-align: center;
 }
 
-.about-us__plus__items {
+.about-us__plus .plus__items {
   margin-top: 69px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,14 +85,14 @@
       flex-wrap: nowrap;
 }
 
-.about-us__plus__item {
+.about-us__plus .plus__item {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   list-style: none;
 }
 
-.about-us__plus__box {
+.about-us__plus .plus__item .item__box {
   width: 250px;
   height: 100%;
   margin: 0 auto;
@@ -107,11 +107,11 @@
           flex-direction: column;
 }
 
-.about-us__plus__box:hover .about-us__plus__ico {
-  background-color: #FDB6D0;
+.about-us__plus .plus__item .item__box:hover .box__ico {
+  background-color: #fdb6d0;
 }
 
-.about-us__plus__ico {
+.about-us__plus .plus__item .item__box .box__ico {
   background-color: #e5e5e5;
   border-radius: 11px;
   text-align: center;
@@ -130,40 +130,40 @@
   font-size: 0px;
 }
 
-.about-us__plus__ico__head {
+.about-us__plus .plus__item .item__box .box__ico .ico__head {
   font-size: 36px;
   color: #793B3B;
 }
 
-.about-us__plus__ico__pic {
+.about-us__plus .plus__item .item__box .box__ico .ico__pic {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   text-align: center;
 }
 
-.about-us__plus__ico__pic::before {
-  content: '';
+.about-us__plus .plus__item .item__box .box__ico .ico__pic::before {
+  content: "";
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
 
-.about-us__plus__ico__pic .img_200x200 {
+.about-us__plus .plus__item .item__box .box__ico .ico__pic .img_200x200 {
   width: 200px;
 }
 
-.about-us__plus__ico__img {
+.about-us__plus .plus__item .item__box .box__ico .ico__img {
   display: inline-block;
   vertical-align: middle;
 }
 
-.about-us__plus__text {
+.about-us__plus .plus__item .item__box .box__text {
   margin-top: 10px;
   text-align: center;
 }
 
-.about-us__plus__text__head {
+.about-us__plus .plus__item .item__box .box__text .text__head {
   font-size: 48px;
   font-weight: bolder;
   color: #793B3B;
@@ -172,7 +172,7 @@
   margin-top: 14px;
 }
 
-.about-us__plus__text__desc {
+.about-us__plus .plus__item .item__box .box__text .text__desc {
   font-size: 24px;
   font-weight: bolder;
   color: #CE9473;
@@ -183,7 +183,7 @@
   margin-top: 107px;
 }
 
-.about-us__awards__head {
+.about-us__awards .awards__head {
   font-size: 64px;
   color: #793B3B;
   text-align: center;
@@ -193,9 +193,19 @@
   margin-top: 107px;
 }
 
-.about-us__location__head {
+.about-us__location .location__head {
   font-size: 64px;
   color: #793B3B;
   text-align: center;
+}
+
+.about-us__location .location__map {
+  margin-top: 24px;
+}
+
+.about-us__location .location__map .map__iframe {
+  border-radius: 11px;
+  width: 100%;
+  height: 450px;
 }
 /*# sourceMappingURL=o-nas.css.map */

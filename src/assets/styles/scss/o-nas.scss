@@ -2,161 +2,175 @@
 
 .about-us {
         &__welcome {
+                .welcome {
+                        &__items {
+                                display: flex;
+                                flex-wrap: nowrap;
+                        }
 
-                &__items {
-                        display: flex;
-                        flex-wrap: nowrap;
-                }
+                        &__item {
+                                flex-grow: 1;
 
-                &__item {
-                        flex-grow: 1;
-                }
+                                .item {
+                                        &__head {
+                                                color: $mainBrown;
+                                                font-size: 64px;
+                                        }
 
-                &__head {
-                        color: $mainBrown;
-                        font-size: 64px;
-                }
+                                        &__text {
+                                                margin-top: 22px;
+                                                color: $mainBrown;
+                                                font-size: 24px;
+                                        }
 
-                &__text {
-                        margin-top: 22px;
-                        color: $mainBrown;
-                        font-size: 24px;
-                }
+                                        &__pic {}
 
-                &__pic {
-                }
-
-                &__img {
-                        width: 800px;
-                        border-radius: 11px;
+                                        &__img {
+                                                width: 800px;
+                                                border-radius: 11px;
+                                        }
+                                }
+                        }
                 }
         }
 
         &__statistic {
                 margin-top: 95px;
 
-                &__items {
-                        display: flex;
-                        flex-wrap: nowrap;
-                }
+                .statistic {
+                        &__items {
+                                display: flex;
+                                flex-wrap: nowrap;
+                        }
 
-                &__item {
-                        flex-grow: 1;
-                        list-style: none;
-                        display: block;
-                        text-align: center;
-                }
+                        &__item {
+                                flex-grow: 1;
+                                list-style: none;
+                                display: block;
+                                text-align: center;
 
-                &__text {
-                        display: inline-block;
-                        text-align: left;
-                        font-weight: bolder;
-                }
+                                .item {
+                                        &__text {
+                                                display: inline-block;
+                                                text-align: left;
+                                                font-weight: bolder;
+                                        }
 
-                &__header {
-                        display: block;
-                        color: $mainBrown;
-                        font-size: 48px;
-                }
+                                        &__header {
+                                                display: block;
+                                                color: $mainBrown;
+                                                font-size: 48px;
+                                        }
 
-                &__desc {
-                        color: $secondaryBrown;
-                        font-size: 24px;
+                                        &__desc {
+                                                color: $secondaryBrown;
+                                                font-size: 24px;
+                                        }
+                                }
+                        }
                 }
         }
 
         &__plus {
                 margin-top: 69px;
 
-                &__head {
-                        font-size: 64px;
-                        color: $mainBrown;
-                        text-align: center;
-                }
-
-                &__items {
-                        margin-top: 69px;
-                        display: flex;
-                        flex-wrap: nowrap; 
-                }
-                
-                &__item {
-                        flex-grow: 1;
-                        list-style: none;
-                }
-
-                &__box {
-                        width: 250px;
-                        height: 100%;
-                        margin: 0 auto;
-                        display: flex;
-                        flex-wrap: nowrap;
-                        flex-direction: column;
-
-                        &:hover {
-                                
-                                .about-us__plus__ico{
-                                        background-color: #FDB6D0;
-                                }
-                        }
-                }
-
-                &__ico {
-                        background-color: #e5e5e5;
-                        border-radius: 11px;
-                        text-align: center;
-                        flex-grow: 1;
-                        display: flex;
-                        flex-wrap: nowrap;
-                        flex-direction: column;
-                        font-size: 0px;
-
+                .plus {
                         &__head {
-                                font-size: 36px;
+                                font-size: 64px;
                                 color: $mainBrown;
-                        }
-
-                        &__pic {
-                                flex-grow: 1;
                                 text-align: center;
+                        }
 
-                                &::before{
-                                        content: '';
-                                        display: inline-block;
-                                        height: 100%;
-                                        vertical-align: middle;
+                        &__items {
+                                margin-top: 69px;
+                                display: flex;
+                                flex-wrap: nowrap;
+                        }
+
+                        &__item {
+                                flex-grow: 1;
+                                list-style: none;
+
+                                .item {
+                                        &__box {
+                                                width: 250px;
+                                                height: 100%;
+                                                margin: 0 auto;
+                                                display: flex;
+                                                flex-wrap: nowrap;
+                                                flex-direction: column;
+
+                                                &:hover {
+                                                        .box__ico {
+                                                                background-color: #fdb6d0;
+                                                        }
+                                                }
+
+                                                .box {
+                                                        &__ico {
+                                                                background-color: #e5e5e5;
+                                                                border-radius: 11px;
+                                                                text-align: center;
+                                                                flex-grow: 1;
+                                                                display: flex;
+                                                                flex-wrap: nowrap;
+                                                                flex-direction: column;
+                                                                font-size: 0px;
+
+                                                                .ico {
+                                                                        &__head {
+                                                                                font-size: 36px;
+                                                                                color: $mainBrown;
+                                                                        }
+
+                                                                        &__pic {
+                                                                                flex-grow: 1;
+                                                                                text-align: center;
+
+                                                                                &::before {
+                                                                                        content: "";
+                                                                                        display: inline-block;
+                                                                                        height: 100%;
+                                                                                        vertical-align: middle;
+                                                                                }
+
+                                                                                .img_200x200 {
+                                                                                        width: 200px;
+                                                                                }
+                                                                        }
+
+                                                                        &__img {
+                                                                                display: inline-block;
+                                                                                vertical-align: middle;
+                                                                        }
+                                                                }
+                                                        }
+
+                                                        &__text {
+                                                                margin-top: 10px;
+                                                                text-align: center;
+
+                                                                .text {
+                                                                        &__head {
+                                                                                font-size: 48px;
+                                                                                font-weight: bolder;
+                                                                                color: $mainBrown;
+                                                                                display: block;
+                                                                                line-height: 24px;
+                                                                                margin-top: 14px;
+                                                                        }
+
+                                                                        &__desc {
+                                                                                font-size: 24px;
+                                                                                font-weight: bolder;
+                                                                                color: $secondaryBrown;
+                                                                                display: block;
+                                                                        }
+                                                                }
+                                                        }
+                                                }
+                                        }
                                 }
-                                
-
-                                .img_200x200{
-                                        width: 200px;
-                                }
-                        }
-
-                        &__img {
-                                display: inline-block;
-                                vertical-align: middle;
-                        }
-                }
-
-                &__text {
-                        margin-top: 10px;
-                        text-align: center;
-
-                        &__head {
-                                font-size: 48px;
-                                font-weight: bolder;
-                                color: $mainBrown;
-                                display: block;
-                                line-height: 24px;
-                                margin-top: 14px;
-                        }
-
-                        &__desc {
-                                font-size: 24px;
-                                font-weight: bolder;
-                                color: $secondaryBrown;
-                                display: block;
                         }
                 }
         }
@@ -164,29 +178,36 @@
         &__awards {
                 margin-top: 107px;
 
-                &__head {
-                        font-size: 64px;
-                        color: $mainBrown;
-                        text-align: center;
+                .awards {
+                        &__head {
+                                font-size: 64px;
+                                color: $mainBrown;
+                                text-align: center;
+                        }
                 }
         }
 
         &__location {
                 margin-top: 107px;
 
-                &__head {
-                        font-size: 64px;
-                        color: $mainBrown;
-                        text-align: center;
-                }
+                .location {
 
-                &__map {
-                        margin-top: 24px;
-                        width: 100%;
-                        height: 450px;
-                        border-radius: 11px;
+                        &__head {
+                                font-size: 64px;
+                                color: $mainBrown;
+                                text-align: center;
+                        }
 
-                        &__iframe {
+                        &__map {
+                                margin-top: 24px;
+
+                                .map{
+                                        &__iframe {
+                                                border-radius: 11px;
+                                                width: 100%;
+                                                height: 450px;
+                                        }
+                                }
                         }
                 }
         }
