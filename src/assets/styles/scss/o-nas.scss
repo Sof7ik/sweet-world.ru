@@ -1,0 +1,205 @@
+@import "init";
+
+.about-us {
+        &__welcome {
+                //background-color: grayscale($color: #e49797);
+                //border: $mainBrown 1px solid;
+
+                &__items {
+                        display: flex;
+                        flex-wrap: nowrap;
+                }
+
+                &__item {
+                        flex-grow: 1;
+                }
+
+                &__head {
+                        color: $mainBrown;
+                        font-size: 64px;
+                }
+
+                &__text {
+                        margin-top: 22px;
+                        color: $mainBrown;
+                        font-size: 24px;
+                }
+
+                &__pic {
+                }
+
+                &__img {
+                        width: 800px;
+                        //height: 430px;
+                        border-radius: 11px;
+                }
+        }
+
+        &__statistic {
+                //background-color: $mainBrown;
+                //border: black 1px solid;
+                margin-top: 95px;
+
+                &__items {
+                        display: flex;
+                        flex-wrap: nowrap;
+                }
+
+                &__item {
+                        flex-grow: 1;
+                        list-style: none;
+                        display: block;
+                        //border: 1px red solid;
+                        text-align: center;
+                }
+
+                &__text {
+                        display: inline-block;
+                        //border: 1px grey solid;
+                        text-align: left;
+                        font-weight: bolder;
+                }
+
+                &__header {
+                        display: block;
+                        color: $mainBrown;
+                        font-size: 48px;
+                }
+
+                &__desc {
+                        color: $secondaryBrown;
+                        font-size: 24px;
+                }
+        }
+
+        &__plus {
+                margin-top: 69px;
+
+                &__head {
+                        font-size: 64px;
+                        color: $mainBrown;
+                        text-align: center;
+                }
+
+                &__items {
+                        margin-top: 69px;
+                        display: flex;
+                        flex-wrap: nowrap; 
+                }
+                
+                &__item {
+                        flex-grow: 1;
+                        list-style: none;
+                        //border: 1px red solid;
+                }
+
+                &__box {
+                        width: 250px;
+                        height: 100%;
+                        margin: 0 auto;
+                        display: flex;
+                        flex-wrap: nowrap;
+                        flex-direction: column;
+
+                        &:hover {
+                                //border: 1px #FDB6D0 solid;
+                                // #fdb6d0
+                                .about-us__plus__ico{
+                                        background-color: #FDB6D0;
+                                }
+                        }
+                }
+
+                &__ico {
+                        background-color: #e5e5e5;
+                        border-radius: 11px;
+                        text-align: center;
+                        flex-grow: 1;
+                        display: flex;
+                        flex-wrap: nowrap;
+                        flex-direction: column;
+                        font-size: 0px;
+
+                        &__head {
+                                font-size: 36px;
+                                color: $mainBrown;
+                        }
+
+                        &__pic {
+                                //display: table-cell;// block;
+                                flex-grow: 1;
+                                //display: flex;
+                                //justify-items: center;
+                                //border: 1px red solid;
+                                //min-width: 100px;
+                                //vertical-align: bottom;
+                                //vertical-align: middle;
+                                text-align: center;
+
+                                &::before{
+                                        //width: 0px;
+                                        //
+                                        content: '';
+                                        display: inline-block;
+                                        height: 100%;
+                                        vertical-align: middle;
+                                }
+                                
+
+                                .img_200x200{
+                                        width: 200px;
+                                }
+                        }
+
+                        &__img {
+                                //display: block;
+                                //margin: 0 auto;
+                                display: inline-block;
+                                vertical-align: middle;
+                        }
+                }
+
+                &__text {
+                        margin-top: 10px;
+                        text-align: center;
+
+                        &__head {
+                                font-size: 48px;
+                                font-weight: bolder;
+                                color: $mainBrown;
+                                display: block;
+                                line-height: 24px;
+                                margin-top: 14px;
+                        }
+
+                        &__desc {
+                                font-size: 24px;
+                                font-weight: bolder;
+                                color: $secondaryBrown;
+                                display: block;
+                        }
+                }
+        }
+
+        &__awards {
+                margin-top: 107px;
+
+                &__head {
+                        font-size: 64px;
+                        color: $mainBrown;
+                        text-align: center;
+                }
+        }
+
+        &__location {
+                margin-top: 107px;
+                //background-color: gold;
+                //border: blue 1px dashed;
+
+                &__head {
+                        font-size: 64px;
+                        color: $mainBrown;
+                        text-align: center;
+                }
+        }
+}
