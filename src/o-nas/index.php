@@ -149,6 +149,9 @@ require_once($_SERVER["DOCUMENT_ROOT"] . "/src/header.php");
         <section class="about-us__location">
             <div class="container-1440">
                 <h2 class="about-us__location__head">Где можно нас найти</h2>
+                <div class="abou-us__location__map">
+                    <iframe class="about-us__location__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A3d51f2b5c65681d29e26c37d48534e088fe0de75c4ec1a447cd3f1b2ca6f5ca9&amp;source=constructor" frameborder="0"></iframe>
+                </div>
             </div>
         </section>
 

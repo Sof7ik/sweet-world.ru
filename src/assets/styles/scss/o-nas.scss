@@ -179,5 +179,15 @@
                         color: $mainBrown;
                         text-align: center;
                 }
+
+                &__map {
+                        margin-top: 24px;
+                        width: 100%;
+                        height: 450px;
+                        border-radius: 11px;
+
+                        &__iframe {
+                        }
+                }
         }
 }
