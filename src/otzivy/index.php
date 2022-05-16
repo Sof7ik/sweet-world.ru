@@ -3,7 +3,7 @@
 
 	$APPLICATION["title"] = "Отзывы о нас";
 
-	$APPLICATION["styles"][] = "/src/assets/styles/css/reviews.css";
+	$APPLICATION["styles"][] = "/src/assets/styles/css/reviews.min.css";
 
 	require_once($_SERVER["DOCUMENT_ROOT"] . "/src/header.php");
 ?>

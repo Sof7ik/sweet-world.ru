@@ -1,6 +1,5 @@
-//@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;600;700;800;900&display=swap');
+@import "init";
 
 .container-1440
 {
@@ -10,13 +9,6 @@
 	padding: 0 20px;
 }
 
-//html, body
-//{
-//	width: 100%;
-//	height: 100%;
-//	overflow-x: hidden;
-//}
-
 body
 {
 	display: flex;
@@ -25,6 +17,11 @@ body
 	align-items: flex-start;
 
 	font-family: 'Vollkorn', serif;
+}
+
+.not-scrollable
+{
+	overflow-y: hidden;
 }
 
 header, main, footer
@@ -40,10 +37,128 @@ main
 	padding-bottom: 90px;
 }
 
+svg path
+{
+	transition: fill .3s;
+}
+
+.btn
+{
+	display: block;
+	background-color: $mainBrown;
+	padding: 13px 40px;
+
+	color: #fff;
+	font-size: 22px;
+	line-height: 28px;
+	border-radius: 5px;
+
+	max-width: max-content;
+
+	border: 1px solid $mainBrown;
+
+	transition: background-color .4s, color .4s;
+
+	&.iconed
+	{
+		padding: 13px 40px 13px 15px;
+
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+
+		svg, img, span
+		{
+			display: block;
+		}
+
+		svg
+		{
+			width: 28px;
+			height: 28px;
+
+			margin-right: 15px;
+
+			path
+			{
+				fill: #fff;
+			}
+		}
+
+		img
+		{
+			width: 28px;
+			height: 28px;
+
+			margin-right: 15px;
+
+			object-fit: contain;
+		}
+	}
+
+	@media screen and (min-width: 769px)
+	{
+		&:hover
+		{
+			background-color: #fff;
+			color: $mainBrown;
+		}
+
+		&.iconed:hover svg path
+		{
+			fill: $mainBrown;
+		}
+	}
+}
+
 .heading-1
 {
 	font-style: normal;
 	font-weight: 400;
-	font-size: 64px;
-	line-height: 89px;
+	font-size: 40px;
+	line-height: 60px;
+
+	color: $mainBrown;
+
+	margin-bottom: 30px;
+}
+
+.heading-2
+{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 45px;
+
+	color: $mainBrown;
+
+	margin-bottom: 30px;
+
+	text-align: center;
+}
+
+.backgrounded-title
+{
+	background-color: #fff;
+
+	min-width: 500px;
+	max-width: max-content;
+
+	padding: 5px 30px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.yellow-wrapper
+{
+	background-color: $mainYellow;
+}
+
+.page-section
+{
+	margin-top: 90px;
+}
+main .page-section:first-child
+{
+	margin-top: 0;
 }

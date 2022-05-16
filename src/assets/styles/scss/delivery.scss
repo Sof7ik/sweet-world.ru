@@ -1,0 +1,180 @@
+@import "init";
+
+.main__toggler {
+	border-bottom: #e09366 1px solid;
+	padding: 0 0 20px 0;
+
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.main__button {
+	font-size: 24px;
+	border: none;
+	background: none;
+	color: #CE9473;;
+	transition: 0.3s;
+	cursor: pointer;
+
+	font-family: "Vollkorn", serif;
+
+	margin-right: 48px;
+}
+
+.main__button:hover {
+	color: #db6b6b;
+}
+
+.main__button--active {
+	color: $mainBrown;
+}
+
+.main__button--active:hover {
+	color: #794545;
+}
+
+.delivery--hidden {
+	display: none;
+}
+
+.container {
+	border: 1px solid $mainBrown;
+	border-radius: 20px;
+	margin-top: 25px;
+}
+
+.container--standart {
+	border-radius: 20px 20px 0 0;
+}
+
+.container__heading {
+	border-bottom: 1px $mainBrown solid;
+	padding: 20px;
+	margin: 0;
+	border-radius: 20px;
+	background-color: $mainYellow;
+	color: $mainBrown;
+}
+
+.container__content {
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.container__content--column {
+	flex-direction: column;
+}
+
+.container__text-wrapper {
+	width: 45%;
+}
+
+.container__text {
+	font-size: 16px;
+
+	line-height: 30px;
+	color: $mainBrown;
+}
+
+.container__list {
+	padding: 0;
+	list-style-type: none;
+	list-style: $mainBrown;
+	counter-reset: cnt;
+}
+
+.container__list--column {
+	width: 60%;
+	margin-left: 35px;
+}
+
+.container__item {
+	margin-bottom: 40px;
+	counter-increment: cnt;
+
+}
+
+.container__item::before {
+	content: counter(cnt);
+	background-color: $mainYellow;
+	float: left;
+	margin-left: -35px;
+	border: 1px solid #CE9473;
+	border-radius: 5px;
+	width: 25px;
+	height: 20px;
+	text-align: center;
+	padding-top: 4px;
+}
+
+.table__wrapper {
+	margin-top: 25px;
+	width: 100%;
+	border: 1px solid $mainBrown;
+	border-radius: 0 0 20px 20px;
+}
+
+.delivery__table {
+	font-size: 20px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid $mainBrown;
+}
+
+td {
+	min-height: 90px;
+	padding: 20px;
+	border-right: 1px solid $mainBrown;
+}
+
+.top {
+	background-color: $mainYellow;
+	border-radius: 20px;
+}
+
+.last {
+	border: none;
+}
+
+.delivery__footnote {
+	color: #793B3B;
+	font-size: 16px;
+}
+
+.pickup__map {
+	margin-top: 20px;
+}
+
+.pickup {
+	animation-duration:  0.7s;
+	animation-name: sliden;
+}
+
+.delivery {
+	animation-duration: 0.7s;
+	animation-name: sliden;
+}
+
+@keyframes sliden {
+	from {
+		transform: translate(-20px);
+		opacity: 0%;
+	}
+
+	to{
+		transform: translate(0);
+		opacity: 100%;
+	}
+}
+
+.pickup--hidden {
+	display: none;
+}

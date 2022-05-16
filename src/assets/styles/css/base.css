@@ -14,6 +14,10 @@ body {
   font-family: "Vollkorn", serif;
 }
 
+.not-scrollable {
+  overflow-y: hidden;
+}
+
 header, main, footer {
   width: 100%;
 }
@@ -24,11 +28,93 @@ main {
   padding-bottom: 90px;
 }
 
+svg path {
+  transition: fill 0.3s;
+}
+
+.btn {
+  display: block;
+  background-color: #793B3B;
+  padding: 13px 40px;
+  color: #fff;
+  font-size: 22px;
+  line-height: 28px;
+  border-radius: 5px;
+  max-width: max-content;
+  border: 1px solid #793B3B;
+  transition: background-color 0.4s, color 0.4s;
+}
+.btn.iconed {
+  padding: 13px 40px 13px 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.btn.iconed svg, .btn.iconed img, .btn.iconed span {
+  display: block;
+}
+.btn.iconed svg {
+  width: 28px;
+  height: 28px;
+  margin-right: 15px;
+}
+.btn.iconed svg path {
+  fill: #fff;
+}
+.btn.iconed img {
+  width: 28px;
+  height: 28px;
+  margin-right: 15px;
+  object-fit: contain;
+}
+@media screen and (min-width: 769px) {
+  .btn:hover {
+    background-color: #fff;
+    color: #793B3B;
+  }
+  .btn.iconed:hover svg path {
+    fill: #793B3B;
+  }
+}
+
 .heading-1 {
   font-style: normal;
   font-weight: 400;
-  font-size: 64px;
-  line-height: 89px;
+  font-size: 40px;
+  line-height: 60px;
+  color: #793B3B;
+  margin-bottom: 30px;
+}
+
+.heading-2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 45px;
+  color: #793B3B;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.backgrounded-title {
+  background-color: #fff;
+  min-width: 500px;
+  max-width: max-content;
+  padding: 5px 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.yellow-wrapper {
+  background-color: #FFF3C0;
+}
+
+.page-section {
+  margin-top: 90px;
+}
+
+main .page-section:first-child {
+  margin-top: 0;
 }
 
 /*# sourceMappingURL=base.css.map */
