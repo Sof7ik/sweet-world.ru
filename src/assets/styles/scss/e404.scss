@@ -1,0 +1,91 @@
+@import "init";
+@import "smart-grid";
+@import "fonts";
+
+@include reset();
+
+/* Error 404 style page*/
+
+.wrapper {
+  @include wrapper();
+}
+
+body {
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.err {
+  height: 100%;
+  min-height: 100%;
+
+  color: $mainBrown;
+
+  &__404 {
+    //width: 100%;
+    //min-width: 100%;
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;//end;
+
+  &__box {
+    text-align: center;
+  }
+
+  &__404 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+
+    .digit {
+      &__4 {
+       font-size: 600px;
+       line-height: 530px;
+       display: inline-block;
+      }
+
+      &__zero {
+        display: inline-block;
+        .zero {
+
+          &__pic {
+          }
+
+          &__img {
+            max-height: 530px;
+          }
+        }
+      }
+    }
+  }
+
+  &__info {
+    margin-top: 64px;
+    display: inline-block;
+    text-align: center;
+    margin: o auto;
+    .info {
+      &__head {
+        font-size: 48px;
+      }
+      &__question {
+        font-size: 32px;
+        line-height: 67px;
+      }
+      &__linktoindex {
+        display: inline-block;
+        width: 100%;
+        font-size: 36px;
+        color: $mainYellow;
+        background-color: $mainBrown;
+        border-radius: 19px;
+        margin-top: 30px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+      }
+    }
+  }
+}
