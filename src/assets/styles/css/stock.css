@@ -1,0 +1,96 @@
+.topic {
+    font-size: 35px;
+    color: #793B3B;
+    margin-left: 190px;
+}
+
+.set img{
+width: 1090px;
+height: 680px;
+margin: auto;
+}
+
+.set p{
+    font-size: 65px;
+    color: #793B3B;
+    width: 500px;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.set li{
+    font-size: 45px;
+    color: #793B3B;
+    width: 200px;
+    margin-left: 250px;
+    padding-top: 0px;
+}
+
+.more-detailed {
+    display: flex;
+}
+
+.set input{
+    background-color: #CE9473;
+    color: #793B3B;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    width: 170px;
+    height: 60px;
+    margin-top: 240px;
+    margin-left: 200px;
+}
+
+.gift {
+    background-image: url('\site\upload\images\ПД21.png');
+    width: 1090px;
+    height: 680px;
+    margin: auto;
+    margin-top: 34px;
+}
+
+.gift p{
+    font-size: 65px;
+    color: #793B3B;
+    padding-top: 75px;
+    padding-left: 100px;
+}
+
+.gift li {
+    font-size: 45px;
+    color: #793B3B;
+    width: 400px;
+    margin-left: 250px;
+    padding-top: 35px;
+}
+
+.gift textarea {
+    width: 800px;
+    height: 60px;
+    background: none;
+    border: 2px solid #5D3030;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 140px;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+
+.gift input {
+    background-color: #CE9473;
+    color: #793B3B;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    width: 270px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 650px;
+}
+

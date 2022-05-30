@@ -1,0 +1,108 @@
+.main-heading {
+    font-size: 40px;
+    color: #793B3B;
+}
+
+.block {
+    border: 2px solid #793B3B;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    background-color: #FFF3C0;
+}
+
+.topic-product-like-button {
+    border-top: 2px solid #793B3B;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.topic {
+    font-size: 40px;
+    color: #793B3B;
+    padding-left: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.product {
+    font-size: 30px;
+    color: #793B3B;
+    margin: auto;
+}
+
+.topic-and-product {
+    display: flex;
+}
+
+.image-and-info {
+    display: flex;
+}
+
+.image {
+    padding: 40px;
+}
+
+.info {
+    font-size: 25px;
+    color: #793B3B;
+    width: 50%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.container-1440 {
+    width: 80%;
+    margin: auto;
+}
+
+.button input{
+    border-radius: 50px;
+    background-color: #793B3B;
+    color: #FFF3C0;
+    font-size: 25px;
+    border: none;
+    padding: 15px 100px ;
+    margin: 20px;
+}
+
+.button {
+    margin-left: 500px;
+    margin-right: 70px;
+}
+
+.bottom-button input{
+    background-color: #FFF3C0;
+    color: #793B3B;
+    border: none;
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 15px 100px ;
+}
+
+.bottom-button {
+    text-align: center;
+}
+
+.like button {
+    border: none;
+    background-color: transparent;
+}
+
+.like button img {
+    width: 25px;
+    height: 25px;
+}
+
+.like-and-button {
+    display: flex;
+}
+
+.like {
+    margin: auto;
+    margin-left: 100px;
+}
+
+.icons {
+    width: 25px;
+    height: 25px;
+}
