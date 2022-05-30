@@ -21,18 +21,12 @@
 </head>
 <body>
 
-<?
-//echo "<pre>";
-//print_r($_SERVER);
-//echo "</pre>"
-?>
-
 <header id="page-header">
 	<div class="container-1440">
 		<div class="page-header__inner-container">
 			<div class="left-header">
 				<a href="/" class="logo-wrapper" title="Перейти на главную страницу">
-					<img src="/site/upload/images/logo.jpg" alt="Логотип Sweet World">
+					<img src="/site/upload/icons/logo.svg" alt="Логотип Sweet World">
 				</a>
 
 				<nav class="page-header__socials-block">
@@ -105,7 +99,7 @@
 		</form>
 
 		<div class="catalog-btn-wrapper">
-			<a href="/src/katalog/" class="catalog-btn__text" title="Перейти в каталог">Каталог</a>
+			<a href="/src/catalog/" class="catalog-btn__text" title="Перейти в каталог">Каталог</a>
 
 			<button id="open-catalog-menu" title="Открыть меню каталога">
 				<span class="line"></span>
