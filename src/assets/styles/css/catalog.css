@@ -1,0 +1,136 @@
+.catalog-top {
+  display: flex;
+  gap: 130px;
+}
+.catalog__title {
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 89px;
+  color: #5d3030;
+  color: #5d3030;
+}
+ul {
+  list-style: none;
+  padding-top: 30px;
+}
+.catalog-options {
+  display: flex;
+  gap: 48px;
+}
+.catalog-options__button,
+.catalog-options__subtitle {
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #5d3030;
+}
+.with_2_button {
+  display: flex;
+}
+.catalog-options__button.with_2_button {
+  width: 30px;
+  height: 30px;
+}
+.catalog-bottom {
+  display: flex;
+  gap: 50px;
+}
+.catalog-left__item__title {
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #5d3030;
+}
+.catalog-left-list {
+  padding: 10px 25px 10px 15px;
+  background-color: #fff3c0;
+}
+.catalog-block__title {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 243, 192, 0.3),
+      rgba(255, 243, 192, 0.3)
+    ),
+    #ffffff;
+  border: 1px solid #793b3b;
+  border-radius: 19px;
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 50px;
+  color: #5d3030;
+  padding: 0px 25px;
+  display: block;
+  width: fit-content;
+  margin-bottom: 15px;
+}
+.catalog-right-block {
+  margin-bottom: 50px;
+}
+.catalog-right-block__item__img {
+  background: #c4c4c4;
+  border-radius: 13px;
+  width: 270px;
+  height: 260px;
+}
+.catalog-right-block__item__option {
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #5d3030;
+}
+.catalog-right-block-list {
+  display: flex;
+  gap: 90px;
+}
+.caurusel-block {
+  max-width: 991px;
+  overflow: hidden;
+}
+.courusel {
+  position: relative;
+  max-width: 991px;
+}
+.arrow-right {
+  position: absolute;
+  right: -10%;
+  top: 50%;
+  transform: translateY(-80%);
+}
+.catalog-right-block-options {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 15px;
+}
+.catalog-nav {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 243, 192, 0.3),
+      rgba(255, 243, 192, 0.3)
+    ),
+    #ffffff;
+  border: 1px solid #793b3b;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 19px;
+  padding: 0 0 15px 24px;
+  margin-top: 15px;
+  padding-top: 0;
+
+}
+.catalog-right-block-options__link {
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #793B3B;
+}

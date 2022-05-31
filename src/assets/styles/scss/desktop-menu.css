@@ -1,0 +1,52 @@
+.desktop-left-menu {
+  position: fixed;
+  top: 98px;
+  right: -100%;
+  z-index: 4;
+  width: 100%;
+  max-width: 480px;
+  height: 100vh;
+  background-color: #793B3B;
+  padding-top: 31px;
+  transition: right .4s; }
+
+.desktop-left-menu.showed {
+  right: 0; }
+
+.aside-darkener {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 3;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .3s; }
+
+.aside-darkener.showed {
+  pointer-events: all;
+  opacity: 1; }
+
+.page-header__site-navigation {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start; }
+  .page-header__site-navigation .site-navigation__link {
+    display: block;
+    margin-bottom: 31px;
+    width: 100%;
+    white-space: nowrap;
+    padding: 0 0 19px 76px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    border-bottom: 2px solid #fff; }
+    .page-header__site-navigation .site-navigation__link:last-child {
+      margin-right: 0; }
+
+/*# sourceMappingURL=desktop-menu.css.map */

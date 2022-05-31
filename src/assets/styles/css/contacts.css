@@ -1,0 +1,108 @@
+.main__heading {
+  text-align: center;
+}
+
+.contacts__icon {
+  width: 30px;
+}
+
+.main__crumbs {
+  display: flex;
+  flex-direction: row;
+}
+
+.main__crumb {
+  color: #CE9473;
+  text-decoration: none;
+}
+
+.main__crumb--curent {
+  color: #5D3030;
+  text-decoration: none;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.contacts__map {
+  width: 50%;
+  height: 100%;
+}
+
+.contacts__information {
+  width: 45%;
+  margin-left: 3%;
+}
+
+.contacts__text {
+  color: #5D3030;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.contacts__contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contacts__text {
+  margin: 10px;
+}
+
+.contacts__text--under {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.call-back {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.call-back__personal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.call-back__label {
+  font-size: 24px;
+  color: #5D3030;
+}
+
+.call-back__input {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+}
+
+.call-back__field {
+  min-height: 40px;
+  border-radius: 10px;
+  border: 1px solid #793B3B;
+  background-color: #FFFBEC;
+}
+
+.call-back__field--message {
+  min-height: 150px;
+  width: 100%;
+}
+
+.call-back__button {
+  background-color: #5D3030;
+  font-size: 36px;
+  color: #FFF3C0;
+  padding: 10px 30px 10px 30px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=contacts.css.map */
