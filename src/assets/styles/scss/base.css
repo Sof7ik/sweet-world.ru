@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;600;700;800;900&display=swap");
+.container-1440 {
+  width: 100%;
+  max-width: calc(1440px + 40px);
+  margin: 0 auto;
+  padding: 0 20px; }
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Vollkorn', serif; }
+
+header, main, footer {
+  width: 100%; }
+
+main {
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding-bottom: 90px; }
+
+.heading-1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 89px; }
+
+/*# sourceMappingURL=base.css.map */

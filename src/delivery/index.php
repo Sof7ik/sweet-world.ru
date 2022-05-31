@@ -47,7 +47,7 @@ require_once($_SERVER["DOCUMENT_ROOT"] . "/src/header.php");
                     <div class="container__content">
                         <div class="container__text-wrapper">
                             <p class="container__text">
-                                Стандартная доставка — максимально безопасна как для клиентов, так и курьеров. 
+                                Стандартная доставка — максимально безопасна как для клиентов, так и курьеров.
                                 Мы доставим сладости даже на дачу.
                             </p>
                         </div>
