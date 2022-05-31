@@ -3,7 +3,7 @@ require_once($_SERVER["DOCUMENT_ROOT"] . "/src/config.php");
 
 $APPLICATION["title"] = "Доставка и самовывоз";
 
-$APPLICATION["styles"][] = "/src/assets/styles/css/delivery.min.css";
+$APPLICATION["styles"][] = "/src/assets/styles/css/delivery.css";
 $APPLICATION["scripts"][] = "/src/assets/js/delivery.js";
 
 require_once($_SERVER["DOCUMENT_ROOT"] . "/src/header.php");
